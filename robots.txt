@@ -1,0 +1,7 @@
+sitemap: https://sarinasadeghi.github.io
+User-agent:*
+Disallow:/node_modules
+Disallow:/.gitignore
+
+User-agent:Googlebot-Image
+Disallow:/images

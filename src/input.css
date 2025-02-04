@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@theme {
+    --breakpoint-s: 375px;
+    --breakpoint-mid: 460px;
+    --breakpoint-sm: 640px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 1024px;
+    --breakpoint-xl: 1280px;
+    --breakpoint-2xl: 1536px;
+}
+
+@font-face {
+    font-family: kamran;
+    src: url("./fonts/Persian-KamranBd.ttf");
+}
+
+@font-face {
+    font-family: zar;
+    src: url("./fonts/Persian-Zar.ttf");
+}
+
+@font-face {
+    font-family: contf;
+    src: url("./fonts/CONTF___.ttf");
+}
+
+@font-face {
+    font-family: charbold;
+    src: url("./fonts/Charbold.ttf");
+}
+
+.rtl {
+    direction: rtl;
+}
+
+.ltr {
+    direction: ltr;
+}
+
+.kamran {
+    font-family: kamran, serif;
+}
+
+.zar {
+    font-family: zar, serif;
+}
+
+.contf {
+    font-family: contf, serif;
+}
+
+.charbold {
+    font-family: charbold, serif;
+}
